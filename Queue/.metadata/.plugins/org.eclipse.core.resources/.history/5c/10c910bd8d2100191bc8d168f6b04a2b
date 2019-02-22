@@ -1,0 +1,28 @@
+package com.sai.programs;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		
+		int prev1,prev2;
+		 for(int i = -1 ;i<5;i++) {
+			 prev1 = i-1;
+			 prev2= i;
+			 System.out.println(i);
+		 }
+		
+		
+
+	}
+
+//	private static int printValues(int i) {
+//		
+//		if (i == 0 || i ==1) {
+//			return 1;
+//		}
+//		
+//		
+//		
+//	}
+
+}

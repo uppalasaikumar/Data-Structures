@@ -1,0 +1,38 @@
+package com.queue.implementation;
+
+public class StackImpl {
+
+	public static void main(String[] args) {
+
+		LinkedListStack stack = new LinkedListStack();
+		
+		System.out.println("top is "+stack.top);
+		stack.display();
+		System.out.println("size is "+ stack.size);
+		System.out.println("====================");
+		System.out.println("Adding elements");
+		
+		stack.push(10);
+		stack.push(20);
+		stack.push(30);
+		stack.push(40);
+		stack.push(50);
+		
+		System.out.println("top is "+stack.top.value);
+		stack.display();
+		System.out.println("size is "+ stack.size);
+		System.out.println("====================");
+		System.out.println("removing elements");
+		
+		System.out.println("popped element is "+stack.pop().value);
+		System.out.println("popped element is "+stack.pop().value);
+		
+		
+		System.out.println("top is "+stack.top.value);
+		stack.display();
+		System.out.println("size is "+ stack.size);
+		System.out.println("====================");
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.sai.programs;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class BubbleSortList {
+
+	public static void main(String[] args) {
+		List<Integers> list = Arrays.asList({5,1,6,2,4,3}) 
+
+	}
+
+}

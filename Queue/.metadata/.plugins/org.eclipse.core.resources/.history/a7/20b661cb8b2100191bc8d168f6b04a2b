@@ -1,0 +1,16 @@
+package com.sai.programs;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		
+		int val = 1221;
+		int r,newVal;
+		while(val!=0) {
+			r = val%10;
+			
+		}
+
+	}
+
+}

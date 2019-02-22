@@ -1,0 +1,37 @@
+package com.queue.implementation;
+
+public class LinkedListImpl {
+
+	public static void main(String[] args) {
+		
+		LinkedList list = new LinkedList();
+		
+		System.out.println("head is "+list.head);
+		System.out.println(list.size);
+		list.display();
+		list.insert(10);
+		list.insert(20);
+		list.insert(30);
+		list.insert(40);
+		list.insert(50);
+
+		System.out.println("head is "+list.head.value);
+		System.out.println(list.size);
+		list.display();
+		
+		list.insertAfter(20, 25);
+		list.display();
+		list.insertAfter(50, 57);
+		list.insertAfter(57, 58);
+		list.display();
+		list.append(60);
+		list.display();
+		list.delete(20);
+		list.display();
+		//list.delete(60);
+		list.display();
+		System.out.println("head is "+list.head.value);
+		System.out.println(list.size);
+	}
+
+}

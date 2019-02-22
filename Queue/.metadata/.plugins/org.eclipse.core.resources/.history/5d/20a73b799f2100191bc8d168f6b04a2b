@@ -1,0 +1,9 @@
+package com.sai.programs;
+
+public class EmployeeSort {
+
+	public static void main(String[] args) {
+		Employee e1 = new Employee("sai", 24, 12);
+	}
+
+}

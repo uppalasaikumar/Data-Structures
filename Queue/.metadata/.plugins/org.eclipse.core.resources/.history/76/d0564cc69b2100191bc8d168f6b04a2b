@@ -1,0 +1,10 @@
+package com.sai.programs;
+
+public class StackLinkedList {
+
+	Node top ;
+	 
+	public StackLinkedList() {
+		this.top = null;
+	}
+}

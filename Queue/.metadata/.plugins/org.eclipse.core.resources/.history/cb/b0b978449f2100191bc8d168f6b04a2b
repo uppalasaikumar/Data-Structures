@@ -1,0 +1,8 @@
+package com.sai.programs;
+
+public class Employee {
+
+	String Name;
+	int age;
+	int id;
+}

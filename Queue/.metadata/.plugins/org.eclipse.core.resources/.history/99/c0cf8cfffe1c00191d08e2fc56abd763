@@ -1,0 +1,17 @@
+package com.queue.implementation;
+
+public class StackImpl {
+
+	public static void main(String[] args) {
+
+		LinkedListStack stack = new LinkedListStack();
+		
+		System.out.println("top is "+stack.top);
+		stack.display();
+		
+		System.out.println("====================");\
+		System.out.println("Adding elements");
+
+	}
+
+}

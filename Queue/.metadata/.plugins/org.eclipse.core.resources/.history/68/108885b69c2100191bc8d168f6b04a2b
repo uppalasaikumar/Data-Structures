@@ -1,0 +1,36 @@
+package com.sai.programs;
+
+public class StackLinkedList {
+
+	Node top ;
+	 
+	public StackLinkedList() {
+		this.top = null;
+	}
+	
+	public void push(int val) {
+		Node newval = new Node(val);
+		
+		if(top==null) {
+			top = newval;
+			return;
+		}
+		
+		newval.next = top;
+		top = newval;
+		
+		
+	}
+	
+	public void pop() {
+		
+	}
+	
+	public Node peek() {
+	return top;
+	}
+	
+	public boolean isEmpty() {
+		return false;
+	}
+}

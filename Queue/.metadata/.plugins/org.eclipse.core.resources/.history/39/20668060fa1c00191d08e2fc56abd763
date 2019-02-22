@@ -1,0 +1,10 @@
+package com.queue.implementation;
+
+public class LinkedListStack {
+	
+	public Node top;
+	public int size;
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+package com.sai.programs;
+
+public class StackImpl {
+
+	public static void main(String args[]) {
+		
+		StackLinkedList stack = new StackLinkedList();
+		stack.push(10);
+		
+	}
+	
+}

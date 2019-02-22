@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Queue-LinkedList&apos; to &apos;StackQueue-LinkedList&apos;&#x0D;&#x0A;- Original element: &apos;Queue-LinkedList&apos;&#x0D;&#x0A;- Renamed element: &apos;Queue-LinkedList&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Queue-LinkedList&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Queue-LinkedList" name="StackQueue-LinkedList" references="true" stamp="1548019632029" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+package com.queue.implementation;
+
+public class LinkedListQueue {
+	
+	public Node front;
+	public Node rear;
+	
+}

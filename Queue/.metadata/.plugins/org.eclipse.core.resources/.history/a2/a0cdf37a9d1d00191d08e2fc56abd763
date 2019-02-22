@@ -1,0 +1,13 @@
+package com.queue.implementation;
+
+public class LinkedListImpl {
+
+	public static void main(String[] args) {
+		
+		LinkedList list = new LinkedList();
+		
+		System.out.println("head is "+list.head);
+		System.out.println(list.size);
+	}
+
+}

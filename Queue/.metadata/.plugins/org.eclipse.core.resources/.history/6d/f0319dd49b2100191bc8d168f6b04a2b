@@ -1,0 +1,22 @@
+package com.sai.programs;
+
+public class StackLinkedList {
+
+	Node top ;
+	 
+	public StackLinkedList() {
+		this.top = null;
+	}
+	
+	public void push() {
+		
+	}
+	
+	public Void pop() {
+		
+	}
+	
+	public Node peek() {
+		retrun null;
+	}
+}

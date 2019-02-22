@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\D\Collections Implementations\Queue\.metadata\.plugins\org.eclipse.jdt.core
+3558816619.index
+2595611166.index

@@ -1,0 +1,28 @@
+package com.queue.implementation;
+
+public class LinkedListStack {
+	
+	public Node top;
+	public int size;
+	
+	public LinkedListStack() {
+		this.top = null;
+	}
+	
+	public void push( int newValue) {
+		
+		Node temp = new Node(newValue);
+		
+		if(this.top == null) {
+			top = temp;
+		}
+		
+		top.next=temp;
+		top=temp;
+	}
+	
+	public void display() {
+		
+		Node temp =this.top;
+	}
+}

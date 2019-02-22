@@ -1,0 +1,21 @@
+package com.sai.programs;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		
+		printValues(5); // 0 ,1,1,2,3,5
+
+	}
+
+	private static int printValues(int i) {
+		
+		if (i == 0 || i ==1) {
+			return 1;
+		}
+		
+		
+		
+	}
+
+}
